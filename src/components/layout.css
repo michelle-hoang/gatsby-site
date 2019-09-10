@@ -1,12 +1,39 @@
+@font-face {
+  font-family: "windsor_BT";
+  src: url("../fonts/WindsorBTRoman.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Apercu";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Apercu"), url("../fonts/Apercu.woff") format("woff");
+}
+
+* {
+  font-family: "Apercu";
+}
+
+.container {
+  text-align: center;
+  width: 50rem;
+  margin-bottom: 5rem;
+}
+
 html {
-  font-family: sans-serif;
+  font-family: "Apercu";
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
+
 body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #fffff8;
+  color: #1f3b66;
 }
 article,
 aside,
@@ -40,11 +67,13 @@ template {
   display: none;
 }
 a {
+  color: #1f3b66;
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
 }
 a:active,
 a:hover {
+  color: #1f3b66;
   outline-width: 0;
 }
 abbr[title] {
@@ -52,24 +81,15 @@ abbr[title] {
   text-decoration: underline;
   text-decoration: underline dotted;
 }
-b,
-strong {
-  font-weight: inherit;
-  font-weight: bolder;
-}
-dfn {
-  font-style: italic;
-}
+
 h1 {
+  font-family: "windsor_BT";
   font-size: 2em;
   margin: 0.67em 0;
 }
 mark {
   background-color: #ff0;
   color: #000;
-}
-small {
-  font-size: 80%;
 }
 sub,
 sup {
@@ -199,8 +219,8 @@ html {
   box-sizing: inherit;
 }
 body {
-  color: hsla(0, 0%, 0%, 0.8);
-  font-family: georgia, serif;
+  color: #1f3b66;
+  justify-content: center;
   font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;
@@ -221,6 +241,7 @@ img {
   margin-bottom: 1.45rem;
 }
 h1 {
+  font-family: "windsor_BT";
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
@@ -230,14 +251,12 @@ h1 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 2.25rem;
   line-height: 1.1;
 }
 h2 {
+  font-family: "windsor_BT";
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
@@ -247,14 +266,12 @@ h2 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 1.62671rem;
   line-height: 1.1;
 }
 h3 {
+  font-family: "windsor_BT";
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
@@ -264,9 +281,6 @@ h3 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 1.38316rem;
   line-height: 1.1;
@@ -281,9 +295,6 @@ h4 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 1rem;
   line-height: 1.1;
@@ -298,9 +309,6 @@ h5 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 0.85028rem;
   line-height: 1.1;
@@ -315,9 +323,6 @@ h6 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 0.78405rem;
   line-height: 1.1;
@@ -590,10 +595,8 @@ td:last-child {
 }
 tt,
 code {
-  background-color: hsla(0, 0%, 0%, 0.04);
+  color: #1f3b66;
   border-radius: 3px;
-  font-family: "SFMono-Regular", Consolas, "Roboto Mono", "Droid Sans Mono",
-    "Liberation Mono", Menlo, Courier, monospace;
   padding: 0;
   padding-top: 0.2em;
   padding-bottom: 0.2em;

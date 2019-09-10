@@ -2,31 +2,79 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 
-const Header = ({ siteTitle }) => (
+const Header = () => (
   <header
     style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
+      marginBottom: "2rem",
     }}
   >
     <div
       style={{
+        display: "flex",
+        flexDirection: "row",
+        justifyContent: "center",
         margin: `0 auto`,
         maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
+        padding: `0.3rem 0.3rem`,
       }}
     >
-      <h1 style={{ margin: 0 }}>
+      <p style={{ margin: "1rem" }}>
         <Link
           to="/"
           style={{
-            color: `white`,
+            fontFamily: "Windsor_BT",
+
             textDecoration: `none`,
           }}
         >
-          {siteTitle}
+          Home
         </Link>
-      </h1>
+      </p>
+      <p style={{ margin: "1rem" }}>
+        <Link
+          to="/projects"
+          style={{
+            fontFamily: "Windsor_BT",
+
+            textDecoration: `none`,
+          }}
+        >
+          Projects
+        </Link>
+      </p>
+      <p style={{ margin: "1rem" }}>
+        <Link
+          to="/artwork"
+          style={{
+            fontFamily: "Windsor_BT",
+            textDecoration: `none`,
+          }}
+        >
+          Artwork
+        </Link>
+      </p>
+      <p style={{ margin: "1rem" }}>
+        <Link
+          to="/blog"
+          style={{
+            fontFamily: "Windsor_BT",
+            textDecoration: `none`,
+          }}
+        >
+          Blog
+        </Link>
+      </p>
+      <p style={{ margin: "1rem" }}>
+        <Link
+          to="/contact-me"
+          style={{
+            fontFamily: "Windsor_BT",
+            textDecoration: `none`,
+          }}
+        >
+          Contact Me
+        </Link>
+      </p>
     </div>
   </header>
 )
