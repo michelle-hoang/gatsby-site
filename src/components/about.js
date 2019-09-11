@@ -5,26 +5,13 @@ export const About = () => {
   return (
     <div>
       <div
+        className="about"
         style={{ display: "flex", flexDirection: "row", paddingTop: "1rem" }}
       >
-        <div
-          style={{
-            paddingLeft: "1.5rem",
-            paddingRight: "1.5rem",
-            paddingTop: "3rem",
-            width: "50%",
-          }}
-        >
+        <div className="portrait">
           <Image />
         </div>
-        <div
-          style={{
-            width: "50%",
-
-            paddingLeft: "1rem",
-            paddingRight: "1rem",
-          }}
-        >
+        <div className="bio">
           <p style={{ textAlign: "left" }}>
             I am a{" "}
             <span className="highlight">
