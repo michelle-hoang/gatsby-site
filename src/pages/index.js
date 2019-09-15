@@ -12,8 +12,7 @@ const IndexPage = () => (
     <div>
       <div style={{ textAlign: "center" }}>
         <h2>
-          Hello there, <br />
-          I'm Michelle. It's great to meet you!
+          Hello there, I'm Michelle. <br /> It's great to meet you!
         </h2>
       </div>
       <About />
