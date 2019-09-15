@@ -13,9 +13,9 @@ const Header = ({ siteTitle }) => (
       style={{
         display: `flex`,
         flexDirection: `row`,
-        justifyContent: `flex-start`,
-        margin: `0 25rem`,
-        maxWidth: 960,
+        justifyContent: `center`,
+        width: `100%`,
+        // maxWidth: 960,
         padding: `1.45rem 1.0875rem`,
       }}
     >

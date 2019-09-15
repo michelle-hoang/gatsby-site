@@ -10,27 +10,18 @@ const ContactMe = () => (
     <h2>Contact Me</h2>
     <div className="container">
       <div>
+        <p>hello@michellehoang.dev</p>
         <p>
-          <span className="highlight">hello@michellehoang.dev</span>
-        </p>{" "}
-        <p>
-          <span className="highlight">
-            <a href="https://www.linkedin.com/in/hoangmichelle">
-              linkedin.com/in/hoangmichelle/
-            </a>
-          </span>
+          <a href="https://www.linkedin.com/in/hoangmichelle">
+            linkedin.com/in/hoangmichelle/
+          </a>
         </p>
         <p>
-          <span className="highlight">
-            <a href="https://www.github.com/michelle-hoang">
-              github.com/michelle-hoang
-            </a>
-          </span>
+          <a href="https://www.github.com/michelle-hoang">
+            github.com/michelle-hoang
+          </a>
         </p>
-        <p>Download my resume here</p>
       </div>
-
-      <div></div>
     </div>
     <Link to="/">Go back to the homepage</Link>
   </Layout>

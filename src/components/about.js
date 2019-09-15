@@ -26,7 +26,6 @@ export const About = () => {
             </span>
             .
           </p>
-
           <p style={{ textAlign: "left" }}>
             As a researcher, I loved the iterative process of experimental
             design, implementation, troubleshooting, and analysis.
