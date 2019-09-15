@@ -659,8 +659,8 @@ pre tt:after {
   .about {
     display: flex;
     flex-direction: row;
-
-    width: 50rem;
+    margin-left: 5rem;
+    width: 45rem;
   }
 
   .pic {
@@ -669,6 +669,20 @@ pre tt:after {
 
   .info {
     padding-left: 2rem;
-    width: 65%;
+    width: 60%;
+  }
+
+  .skill {
+    margin-left: 5rem;
+    width: 45rem;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 40rem;
+    margin-left: 5rem;
   }
 }

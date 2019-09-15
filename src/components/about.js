@@ -4,9 +4,6 @@ import Image from "./image"
 export const About = () => {
   return (
     <div>
-      <div>
-        <h3>About Me</h3>
-      </div>
       <div className="about">
         <div
           className="pic"
@@ -16,6 +13,7 @@ export const About = () => {
             marginBottom: `1.45rem`,
           }}
         >
+          <h3 style={{ textAlign: "center" }}>About Me</h3>
           <Image />
         </div>
         <div className="info">
