@@ -9,16 +9,14 @@ import SEO from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <div className="container">
+    <div style={{ textAlign: "center" }}>
       <h2>
-        Hello, there, <br />
+        Hello there, <br />
         I'm Michelle. It's great to meet you!
       </h2>
-      <div>
-        <About />
-        <Skills />
-      </div>
     </div>
+    <About />
+    <Skills />
   </Layout>
 )
 

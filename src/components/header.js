@@ -2,79 +2,48 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 
-const Header = () => (
+const Header = ({ siteTitle }) => (
   <header
     style={{
-      marginBottom: "2rem",
+      marginBottom: `1.45rem`,
     }}
   >
     <div
+      className="header"
       style={{
-        display: "flex",
-        flexDirection: "row",
-        justifyContent: "center",
-        margin: `0 auto`,
+        display: `flex`,
+        flexDirection: `row`,
+        justifyContent: `flex-start`,
+        margin: `0 25rem`,
         maxWidth: 960,
-        padding: `0.3rem 0.3rem`,
+        padding: `1.45rem 1.0875rem`,
       }}
     >
-      <p style={{ margin: "1rem" }}>
-        <Link
-          to="/"
-          style={{
-            fontFamily: "Windsor_BT",
-
-            textDecoration: `none`,
-          }}
-        >
+      <h5 style={{ paddingLeft: `0.5rem`, margin: 0 }}>
+        <Link to="/" className="nav">
           Home
         </Link>
-      </p>
-      <p style={{ margin: "1rem" }}>
-        <Link
-          to="/projects"
-          style={{
-            fontFamily: "Windsor_BT",
-
-            textDecoration: `none`,
-          }}
-        >
+      </h5>
+      <h5 style={{ paddingLeft: `1rem`, margin: 0 }}>
+        <Link to="/projects" className="nav">
           Projects
         </Link>
-      </p>
-      <p style={{ margin: "1rem" }}>
-        <Link
-          to="/artwork"
-          style={{
-            fontFamily: "Windsor_BT",
-            textDecoration: `none`,
-          }}
-        >
+      </h5>
+      <h5 style={{ paddingLeft: `1rem`, margin: 0 }}>
+        <Link to="/artwork" className="nav">
           Artwork
         </Link>
-      </p>
-      <p style={{ margin: "1rem" }}>
-        <Link
-          to="/blog"
-          style={{
-            fontFamily: "Windsor_BT",
-            textDecoration: `none`,
-          }}
-        >
+      </h5>
+      <h5 style={{ paddingLeft: `1rem`, margin: 0 }}>
+        <Link to="/blog" className="nav">
           Blog
         </Link>
-      </p>
-      <p style={{ margin: "1rem" }}>
-        <Link
-          to="/contact-me"
-          style={{
-            fontFamily: "Windsor_BT",
-            textDecoration: `none`,
-          }}
-        >
-          Contact Me
+      </h5>
+      <h5 style={{ paddingLeft: `1rem`, margin: 0 }}>
+        <Link to="/contact-me" className="nav">
+          Contact
         </Link>
-      </p>
+      </h5>
     </div>
   </header>
 )

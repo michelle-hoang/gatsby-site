@@ -4,14 +4,21 @@ import Image from "./image"
 export const About = () => {
   return (
     <div>
-      <div
-        className="about"
-        style={{ display: "flex", flexDirection: "row", paddingTop: "1rem" }}
-      >
-        <div className="portrait">
+      <div>
+        <h3>About Me</h3>
+      </div>
+      <div className="about">
+        <div
+          className="pic"
+          style={{
+            alignSelf: `center`,
+            maxWidth: `337px`,
+            marginBottom: `1.45rem`,
+          }}
+        >
           <Image />
         </div>
-        <div className="bio">
+        <div className="info">
           <p style={{ textAlign: "left" }}>
             I am a{" "}
             <span className="highlight">
@@ -41,4 +48,5 @@ export const About = () => {
     </div>
   )
 }
+
 export default About
