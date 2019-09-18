@@ -17,7 +17,8 @@ const Projects = ({ data }) => (
         </div>
         <p>
           A mobile app where users can view popular attractions and find or
-          create walks in their area <br />
+          create walks in their area
+          <hr style={{ height: `0.75rem`, visibility: `hidden` }} />
           Technologies implemented: React-Native, Expo.io, React-Navigation,
           React-Native-Maps, PostGIS, Native-Base
         </p>
@@ -29,7 +30,8 @@ const Projects = ({ data }) => (
         </div>
         <p>
           A web app using data visualizations about my experience learning D3
-          and Victory.js during a 4-day hackathon <br />
+          and Victory.js during a 4-day hackathon
+          <hr style={{ height: `0.75rem`, visibility: `hidden` }} />
           Technologies implemented: React, Victory.js, D3.js
         </p>
       </div>
@@ -40,6 +42,7 @@ const Projects = ({ data }) => (
         </div>
         <p>
           An e-commerce website selling bread and related products <br />
+          <hr style={{ height: `0.75rem`, visibility: `hidden` }} />
           Technologies implemented: Express, Sequelize, React, Redux,
           React-Bootstrap, Sketch, Stripe
         </p>
