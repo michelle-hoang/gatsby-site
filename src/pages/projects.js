@@ -13,7 +13,7 @@ const Projects = ({ data }) => (
       <div>
         <h4>Stroll</h4>
         <div className="projectImage">
-          <Stroll />
+          <Stroll className="projectThumbnail" />
         </div>
         <p>
           A mobile app where users can view popular attractions and find or
@@ -25,7 +25,7 @@ const Projects = ({ data }) => (
       <div>
         <h4>From D3 to Victory</h4>
         <div className="projectImage">
-          <Victory />
+          <Victory className="projectThumbnail" />
         </div>
         <p>
           A web app using data visualizations about my experience learning D3
@@ -36,7 +36,7 @@ const Projects = ({ data }) => (
       <div>
         <h4>Let's get this bread (shop)</h4>
         <div className="projectImage">
-          <Breadshop />
+          <Breadshop className="projectThumbnail" />
         </div>
         <p>
           An e-commerce website selling bread and related products <br />
