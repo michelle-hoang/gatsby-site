@@ -21,6 +21,9 @@ const Artwork = () => (
     >
       <div className="artPlaceholder">
         <SightDistance />
+        <p style={{ paddingTop: `0.5rem`, textAlign: `right` }}>
+          <i>On the Horizon</i>, 2016
+        </p>
       </div>
     </div>
   </Layout>
