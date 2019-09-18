@@ -10,7 +10,16 @@ const Header = () => (
       marginBottom: `1.45rem`,
     }}
   >
-    <div className="header">
+    <div
+      className="header"
+      style={{
+        display: `flex`,
+        flexDirection: `row`,
+        justifyContent: `center`,
+        width: `100%`,
+        padding: `1.45rem 1.0875rem`,
+      }}
+    >
       <h5 style={h5style}>
         <Link to="/" className="nav">
           Home

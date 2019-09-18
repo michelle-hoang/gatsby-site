@@ -222,14 +222,6 @@ html {
   box-sizing: inherit;
 }
 
-.header {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  width: 100%;
-  padding: 1.45rem 1.0875rem;
-}
-
 body {
   color: #1f3b66;
   font-family: georgia, serif;
@@ -715,5 +707,11 @@ pre tt:after {
 
   .projectImage img {
     width: 400px;
+  }
+
+  .artPlaceholder {
+    align-self: center;
+    width: 600px;
+    justify-content: center;
   }
 }
