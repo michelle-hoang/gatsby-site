@@ -8,9 +8,10 @@ const Artwork = () => (
     <SEO title="Artwork" />
     {/* <h2 style={{ textAlign: "center" }}>Creative Work</h2> */}
 
-    <h2 style={{ textAlign: "center", margin: `2rem` }}>
-      Currently Under Construction
-    </h2>
+    <h2 style={{ textAlign: "center" }}>Currently Under Construction</h2>
+    <h4 style={{ textAlign: "center", margin: `2rem` }}>
+      Thanks for your patience!
+    </h4>
     <div
       style={{
         display: `flex`,

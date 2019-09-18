@@ -6,7 +6,7 @@ import SEO from "../components/seo"
 const Blog = () => (
   <Layout>
     <SEO title="Blog" />
-    <h2 style={{ textAlign: `center` }}>What's on my mind lately?</h2>
+    <h2 style={{ textAlign: `center` }}>What's on my mind? </h2>
     <div className="container"></div>
   </Layout>
 )
