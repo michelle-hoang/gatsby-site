@@ -11,7 +11,9 @@ const Projects = ({ data }) => (
       <SEO title="Projects" />
       <h2 style={{ textAlign: "center" }}>Projects</h2>
       <div>
-        <h4>Stroll</h4>
+        <u>
+          <h4>Stroll</h4>
+        </u>
         <div className="projectImage">
           <Stroll className="projectThumbnail" />
         </div>
@@ -24,7 +26,9 @@ const Projects = ({ data }) => (
         </p>
       </div>
       <div>
-        <h4>From D3 to Victory</h4>
+        <u>
+          <h4>From D3 to Victory</h4>
+        </u>
         <div className="projectImage">
           <Victory className="projectThumbnail" />
         </div>
@@ -36,7 +40,9 @@ const Projects = ({ data }) => (
         </p>
       </div>
       <div>
-        <h4>Let's get this bread (shop)</h4>
+        <u>
+          <h4>Let's get this bread (shop)</h4>
+        </u>
         <div className="projectImage">
           <Breadshop className="projectThumbnail" />
         </div>

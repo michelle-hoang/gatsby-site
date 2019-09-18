@@ -13,7 +13,7 @@ export const Skills = () => {
         <p>
           <span className="highlight">Familiar:</span> Jasmine, Mocha/Chai,
           Heroku, Travis, Chart.js, Expo.io, Google Maps API, React-Native-Maps,
-          Ngrok
+          Ngrok, Gatsby.js
         </p>
       </div>
     </div>

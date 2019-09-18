@@ -9,7 +9,7 @@ export const About = () => {
           className="pic"
           style={{
             alignSelf: `center`,
-            maxWidth: `337px`,
+            maxWidth: `350px`,
             marginBottom: `1.45rem`,
           }}
         >
@@ -29,7 +29,7 @@ export const About = () => {
             design, implementation, troubleshooting, and analysis.
           </p>
           <p style={{ textAlign: "left" }}>
-            While studying the human brain, I worked with novel technologies,
+            While studying the human brain, I worked with novel technologies
             that required programming knowledge.
           </p>
           <p style={{ textAlign: "left" }}>

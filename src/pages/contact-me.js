@@ -1,8 +1,8 @@
 import React from "react"
-import { Link } from "gatsby"
-import Resume from "../components/resume"
+
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import { LinkedIn } from "../icons"
 
 const ContactMe = () => (
   <Layout>
@@ -10,13 +10,15 @@ const ContactMe = () => (
     <h2>Contact Me</h2>
     <div className="container">
       <div>
-        <p>hello@michellehoang.dev</p>
         <p>
+          <a href={`mailto: hello@michellehoang.dev`} target="_blank">
+            hello@michellehoang.dev
+          </a>
+          <hr style={{ visibility: `hidden` }} />
           <a href="https://www.linkedin.com/in/hoangmichelle">
             linkedin.com/in/hoangmichelle/
           </a>
-        </p>
-        <p>
+          <hr style={{ visibility: `hidden` }} />
           <a href="https://www.github.com/michelle-hoang">
             github.com/michelle-hoang
           </a>
