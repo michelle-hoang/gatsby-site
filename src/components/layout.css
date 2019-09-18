@@ -34,7 +34,6 @@ details,
 figcaption,
 figure,
 footer,
-header,
 main,
 menu,
 nav,
@@ -222,6 +221,15 @@ html {
 *:after {
   box-sizing: inherit;
 }
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  padding: 1.45rem 1.0875rem;
+}
+
 body {
   color: #1f3b66;
   font-family: georgia, serif;
@@ -669,7 +677,10 @@ pre tt:after {
   }
 
   .pic {
-    width: 300px;
+    align-self: center;
+    text-align: center;
+    width: 350px;
+    margin-bottom: 1.5rem;
   }
 
   .info {
