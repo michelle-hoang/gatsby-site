@@ -682,7 +682,22 @@ pre tt:after {
     flex-direction: column;
     justify-content: center;
     align-content: center;
-    width: 40rem;
-    margin-left: 5rem;
+    width: 30rem;
+    margin-left: 10rem;
+  }
+
+  .projectImage {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    width: 30rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 5rem;
+  }
+
+  .projectImage img {
+    width: 400px;
   }
 }
