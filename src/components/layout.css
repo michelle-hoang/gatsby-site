@@ -649,6 +649,16 @@ pre tt:after {
   margin-bottom: 1rem;
 }
 
+.blogPosts {
+  width: 35rem;
+  align-self: center;
+}
+
+.blogPostTitle a {
+  font-family: "windsor_BT";
+  text-decoration: none;
+}
+
 @media only screen and (max-width: 480px) {
   html {
     font-size: 100%;

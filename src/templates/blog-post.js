@@ -16,12 +16,13 @@ export default ({ data }) => {
 }
 
 export const query = graphql`
-  query($slug: String!) {
-    markdownRemark(fields: { slug: { eq: $slug } }) {
+  query BlogPostByPath($path: String!) {
+    markdownRemark(frontmatter: { path: { eq: $path } }) {
       html
       frontmatter {
+        date(formatString: "MMMM DD, YYYY")
+        path
         title
-        date(formatString: "DD MMMM, YYYY")
       }
     }
   }
