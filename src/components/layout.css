@@ -649,11 +649,6 @@ pre tt:after {
   margin-bottom: 1rem;
 }
 
-.blogPosts {
-  width: 35rem;
-  align-self: center;
-}
-
 .blogPostTitle a {
   font-family: "windsor_BT";
   text-decoration: none;
@@ -729,5 +724,10 @@ pre tt:after {
     align-self: center;
     width: 600px;
     justify-content: center;
+  }
+
+  .blogPosts {
+    width: 35rem;
+    align-self: center;
   }
 }
