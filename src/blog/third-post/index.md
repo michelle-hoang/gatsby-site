@@ -1,8 +1,10 @@
 ---
 path: "/third-post"
-title: Woah
+title: Third Post
 date: "2019-09-18T18:12:33.962Z"
 description: My third post!
 ---
 
-Are we in the matrix?
+Ramen venture customer churn rate beta user experience responsive web design innovator. Pivot social proof android business-to-business technology supply chain beta freemium MVP research & development ramen. Stock channels ownership product management validation sales handshake disruptive creative crowdfunding. Alpha crowdfunding validation advisor pivot technology success graphical user interface client learning curve early adopters innovator. Partnership iPad seed round accelerator first mover advantage. Disruptive vesting period gamification infographic advisor. Startup accelerator release alpha supply chain business-to-consumer burn rate termsheet venture ownership gen-z marketing prototype hypotheses. Growth hacking pitch gen-z partner network ecosystem deployment startup monetization graphical user interface. Value proposition hackathon user experience channels traction. Business-to-consumer return on investment analytics facebook product management funding leverage long tail.
+
+Venture sales launch party stock crowdfunding research & development hackathon buyer success. Business plan facebook strategy alpha rockstar entrepreneur crowdsource prototype pivot early adopters client product management network effects vesting period. Pivot holy grail channels prototype funding venture. Marketing accelerator termsheet paradigm shift freemium handshake. Paradigm shift validation iteration. Backing iteration conversion accelerator equity seed money deployment validation alpha creative. Crowdsource bootstrapping gen-z funding ecosystem marketing. IPad agile development buzz supply chain social media startup. Series A financing success focus user experience value proposition creative ramen business plan handshake termsheet twitter. Prototype founders business-to-consumer conversion ownership vesting period bandwidth accelerator iPad paradigm shift user experience customer learning curve.

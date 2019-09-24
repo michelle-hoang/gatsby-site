@@ -649,8 +649,11 @@ pre tt:after {
   margin-bottom: 1rem;
 }
 
-.blogPostTitle a {
+.blogPostTitle a,
+a:visited,
+a:active {
   font-family: "windsor_BT";
+  color: #1f3b66;
   text-decoration: none;
 }
 

@@ -27,9 +27,9 @@ export default function BlogIndex({ data }) {
               return (
                 <div className="blog-post-preview" key={post.id}>
                   <h3>
-                    {/* <Link className="blogPostTitle" to={post.frontmatter.path}> */}
-                    {post.frontmatter.title}
-                    {/* </Link> */}
+                    <Link className="blogPostTitle" to={post.frontmatter.path}>
+                      {post.frontmatter.title}
+                    </Link>
                   </h3>
                   <h4>{post.frontmatter.date}</h4>
                   <p>{post.excerpt}</p>
