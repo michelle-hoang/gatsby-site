@@ -5,8 +5,8 @@ import SEO from "../components/seo"
 import Stroll from "../components/examples/stroll"
 import Breadshop from "../components/examples/breadshop"
 import Victory from "../components/examples/victory"
+import { ScreencastButton } from "../components/screencast-button"
 import { InfoButton } from "../components/info-button"
-
 const Projects = ({ data }) => (
   <Layout>
     <div className="content">
@@ -28,9 +28,12 @@ const Projects = ({ data }) => (
         </p>
 
         <div style={{ display: `flex`, justifyContent: `flex-end` }}>
-          <Link to="/stroll">
-            <InfoButton />
-          </Link>
+          <a
+            href="https://www.youtube.com/watch?v=Fsc2psZn46M&list=PLx0iOsdUOUmnZXS2H9EDbhYMlmh3onWHs&index=17&t=0s"
+            target="_blank"
+          >
+            <ScreencastButton />
+          </a>
         </div>
       </div>
       <div style={{ marginBottom: `2rem` }}>
@@ -66,9 +69,9 @@ const Projects = ({ data }) => (
           React-Bootstrap, Sketch, Stripe
         </p>
         <div style={{ display: `flex`, justifyContent: `flex-end` }}>
-          <Link to="/breadshop">
+          <a href="https://get-this-bread-shop.herokuapp.com" target="_blank">
             <InfoButton />
-          </Link>
+          </a>
         </div>
       </div>
     </div>

@@ -32,7 +32,7 @@ export default function BlogIndex({ data }) {
                     </Link>
                   </h3>
                   <h4>{post.frontmatter.date}</h4>
-                  <p>{post.excerpt}</p>
+                  <p>{post.frontmatter.description}</p>
                   <hr />
                 </div>
               )
@@ -53,6 +53,7 @@ export const pageQuery = graphql`
           frontmatter {
             title
             date(formatString: "MMMM DD, YYYY")
+            description
             path
           }
         }

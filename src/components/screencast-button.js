@@ -18,7 +18,7 @@ const ArrowIcon = () => {
   return <Img fluid={data.placeholderImage.childImageSharp.fluid} />
 }
 
-export const InfoButton = () => {
+export const ScreencastButton = () => {
   return (
     <div
       style={{
@@ -38,7 +38,7 @@ export const InfoButton = () => {
           marginLeft: `0.25rem`,
         }}
       >
-        View site
+        View Screencast
       </div>
       <div
         style={{
